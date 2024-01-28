@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import detectEthereumProvider from '@metamask/detect-provider';
 import { useHistory } from 'react-router-dom';
+import fox from './assets/login.png';
 
 const useMetaMask = () => {
     const [provider, setProvider] = useState(null);
@@ -37,7 +38,7 @@ const LogIn = () => {
         }
     }, [accounts, history]);
 
-    return <div>unauthenticated</div>
+    return <img src={fox} alt="fox"/>
 
 }
 

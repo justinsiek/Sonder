@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Landing.css'; // Import the CSS file
+import videoBg from './assets/animation.mp4';
 
 function Landing() {
   return (
-    <div>
-      <h1>Welcome to our website!</h1>
+    <div className="landing">
       <Link to="/login">
-        <button>Go to Login</button>
+        <div className="main">
+          <video src={videoBg} autoPlay loop muted />
+        </div>
       </Link>
     </div>
   );
