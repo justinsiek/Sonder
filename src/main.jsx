@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='flex flex-col items-center justify-center h-screen overflow-hidden'>
+  <div className='flex flex-col items-center justify-center overflow-auto'>
     <App />
   </div>,
 )

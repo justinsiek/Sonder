@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'sans': ['Inter Tight', 'sans-serif'],
       },
+      gridAutoFlow: ['dense']
     },
   },
   plugins: [],
